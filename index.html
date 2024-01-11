@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="name">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="YourName" required pattern="[a-zA-Z]{5,}">
+      <div id="message"></div>
+    </div>
+    <div class="lastname">
+        <label for="lastName">LastName:</label>
+      <input type="text" id="lastName" placeholder="YourLastName" required pattern="[a-zA-Z]{5,}"> 
+      <div id="message2"></div>
+    </div>
+    <div class="btns">
+    <div class="btn">
+    <button id="check"type="checked">Check Validation</button>
+   </div>
+   <div class="btn2">
+    <button id="submit"type="submit">Submit</button>
+   </div>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
